@@ -1,0 +1,208 @@
+.reg_Footer_container{
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    height: 250px;
+
+}
+.reg_footer_content{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    height: 100%;
+}
+
+.reg_footer_content .reg_footer_card{
+    position: relative;
+    height: 90%;
+    align-items: center;
+    display: flex;
+}
+
+.reg_email_input{
+    width: 45%;
+    flex-direction: column;
+    gap: 2.5rem;
+    margin-left: 20px;
+    top: 60px;
+}
+
+.reg_email_input h6{
+    position: relative;
+    text-align: start;
+    font-size: 20px;
+    color: var(--yelow-color);
+    margin-left: -60px;
+}
+
+.reg_email_input div{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+ .reg_email_input div label{
+    font-size: 25px;
+    color: #fff;
+ }
+
+ .reg_email_input div input{
+        border: none;
+        background: transparent;
+        border-bottom: 1px solid #fff;
+        width: 85%;
+        color: #fff;
+    }
+
+    .reg_email_input div button{
+        position: relative;
+        top: 20px;
+        background-color: var(--yelow-color);
+        color: #000;
+        border: none;
+        border-radius: 10px;
+        font-weight: 600;
+    }
+
+    .reg_contacts{
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        width: 30%;
+        z-index: 9;
+        color: #fff;
+        position: relative;
+        top: 60px;
+        margin-left: -170px;
+    }
+
+    .reg_info{
+        display: flex;
+    }
+
+    .reg_info img{
+        width: 30px;
+    }
+    .reg_info span{
+        font-size: 20px;
+        margin-left: 20px;
+    }
+
+    .reg_social{
+        color: #fff;
+        z-index: 9;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        top: 60px;
+    }
+    .reg_social h6{
+        font-size: 25px;
+    }
+    .reg_social_icon{
+        display: flex;
+        flex-direction: row;
+        gap: 1.5rem;
+    }
+
+    .reg_social_icon img{
+        width: 40px;
+    }
+
+
+@media screen and (max-width: 920px) {
+    .reg_Footer_container{
+        height: 180px;
+    }
+    .reg_footer_content{
+        gap: 0.5rem;
+    }
+
+    .reg_email_input{
+        width: 45%;
+        flex-direction: column;
+        gap: 0;
+        margin-left: 10px;
+        top: 10px;
+    }
+    .reg_email_input h6{
+        position: relative;
+        text-align: start !important;
+        font-size: 12px;
+        color: var(--yelow-color);
+        margin-left: -18px;
+        top: 20px;
+    }
+
+    .reg_email_input div{
+        position: relative;
+        top: 20px;
+    }
+
+    .reg_email_input div label{
+        color: #fff;
+        font-size: 13px;
+    }
+
+    .reg_email_input div input{
+        border: none;
+        background: transparent;
+        border-bottom: 1px solid #fff;
+        width: 85%;
+        color: #fff;
+        font-size: 13px;
+    }
+
+    .reg_email_input div button{
+        position: relative;
+        top: 20px;
+        background-color: var(--yelow-color);
+        color: #000;
+        border: none;
+        border-radius: 10px;
+        font-weight: 600;
+    }
+    .reg_contacts{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        width: 30%;
+        z-index: 9;
+        color: #fff;
+        position: relative;
+        top: 30px;
+        margin-left: -25px;
+    }
+
+    .reg_info{
+        display: flex;
+    }
+
+    .reg_info img{
+        width: 20px;
+    }
+    .reg_info span{
+        font-size: 10px;
+        margin-left: 10px;
+    }
+
+    .reg_social{
+        color: #fff;
+        z-index: 9;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        top: 30px;
+    }
+    .reg_social h6{
+        font-size: 8.2px;
+    }
+    .reg_social_icon{
+        display: flex;
+        flex-direction: row;
+        gap: 0.5rem;
+    }
+
+    .reg_social_icon img{
+        width: 20px;
+    }
+}

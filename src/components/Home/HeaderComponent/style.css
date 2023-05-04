@@ -1,0 +1,97 @@
+header{
+    /* min-height: 1024px; */
+    width: 100%;
+    
+}
+
+header .wrapper{
+    position: relative;
+
+}
+
+
+ .header_image{
+    max-width: 100%;
+    position: relative; 
+}
+ header .wrapper::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, #000000 8.33%, rgba(0, 0, 0, 0.199436) 91.44%, rgba(0, 0, 0, 0) 99.17%);
+    z-index: 2;
+ }
+
+ .welcome{
+    position: absolute;
+    top: 33%;
+    color: #fff;
+    z-index: 3;
+    left: 50%;
+    transform: translateX(-50%);
+ }
+ .welcome h1{
+    font-size: 50px;
+ }
+ .logo{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 43%;
+    z-index: 3;
+ }
+ .logo img{
+    width: 150px;
+ }
+
+ .paragraph{
+    position: absolute;
+    color: #fff;
+    /* width: 85%; */
+    left: 50%;
+    top: 65%;
+    z-index: 3;
+    transform: translateX(-50%);
+ }
+
+.paragraph p{
+    font-size: 26px;
+    width: 90vw;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px;
+    text-align: center;
+
+} 
+ @media screen and (min-width: 1025px) {
+    .paragraph p{
+        font-size: 35px;
+    }
+ }
+ @media screen and (max-width: 920px){
+    .welcome{
+        top: 35%;
+    }
+    .welcome h1{
+        font-size: 15px;
+    }
+    .logo{
+        top: 43%;
+    }
+    .logo img{
+        width: 60px;
+    }
+    .paragraph{
+        top: 60%;
+    }
+    .paragraph p{
+        font-size: 9px;
+        width: 98vw;
+        line-height: 50px;
+    }
+ }

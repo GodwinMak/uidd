@@ -1,0 +1,36 @@
+.reg_content{
+    background: var(--yelow-color);
+}
+
+.reg_content input{
+    background-color: var(--yelow-color);
+}
+
+.reg_paragraph{
+    position: absolute;
+    width: 80vw;
+    height: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 5;
+    color: #fff;
+    top: 50%;
+}
+
+.reg_paragraph p{
+    font-size: 20px;
+}
+@media screen and (max-width: 920px) {
+    .reg_paragraph{
+        height: 100px;
+        top: 13%;
+    }
+
+    .reg_paragraph h2{
+        font-size: 16px;
+    }
+
+    .reg_paragraph p{
+        font-size: 10px;
+    }
+}

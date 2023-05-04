@@ -1,0 +1,33 @@
+.info_container{
+    position: absolute;
+    width: 84.5vw;
+    height: 100vh;
+    top: -12%;
+    background-color: #fff;
+    z-index: 7;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+}
+.info_tittle{
+    font-weight: 600;
+    background-color: var(--yelow-color);
+    text-align: center;
+    border-radius: 30px;
+    height: 52px;
+    display: flex;
+    flex-direction: vertical;
+}
+
+@media screen and (max-width: 920px) {
+    .info_container{
+        height: 35vh;
+    }
+    .info_tittle{
+        font-size: 9px;
+        height: 15px;
+        padding: 0 2px;
+    }
+}

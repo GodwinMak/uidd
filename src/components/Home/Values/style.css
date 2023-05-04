@@ -1,0 +1,53 @@
+.values_container{
+    position: absolute;
+    top: 65%;
+    z-index: 7;
+    color: #fff;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.values_container h2{
+    text-align: center;
+}
+
+.values_content{
+    display: flex;
+    flex-direction: row;
+    gap: 5.5rem;
+    height: 430px;
+    width: 95vw;
+}
+
+.values_content .values_card{
+    position: relative;
+    top: 100px;
+    height: 90%;
+    align-items: center;
+    position: relative;
+    width: 33.3%;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: -10px 16px 0px 0px var(--yelow-color);
+    background-color: #fff;
+}
+
+@media screen and (max-width: 920px) {
+    .values_container{
+        top: 70%;
+    }
+
+    .values_container h2{
+        font-size: 19px;
+    }
+
+    .values_content{
+        height: 140px;
+        gap: 2rem;
+    }
+    
+    .values_content .values_card{
+        top: 30px;
+        height: 70%;
+        box-shadow: -5px 10px 0px 0px var(--yelow-color);
+    }
+}

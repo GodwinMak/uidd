@@ -1,0 +1,40 @@
+.content_container{
+    /* background-color: black;
+    height: 100vh;
+    background-image: url("../../assets/images/pngwing\ 1.png");
+    background-repeat: no-repeat;
+    background-size: cover; */
+    width: 100%;
+}
+
+.content_container .wrapper{
+    position: relative;
+}
+
+.content_container .wrapper::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    /* background: linear-gradient(180deg, #000000 8.33%, rgba(0, 0, 0, 0.199436) 91.44%, rgba(0, 0, 0, 0) 54.17%); */
+    background: black;
+    z-index: -1;
+    height: 3420px;
+ }
+
+.content_image{
+    max-width: 100%;
+    position: relative; 
+    top: 200px;
+}
+
+@media screen and (max-width: 900px) {
+    .content_image{
+        top: 80px;
+    }
+    .content_container .wrapper::before{
+        height: 1270px;
+    }
+}

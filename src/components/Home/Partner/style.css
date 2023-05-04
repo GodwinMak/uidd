@@ -1,0 +1,35 @@
+.partner_container{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 40%;
+    z-index: 7;
+    color: #fff;
+}
+.partner_container h2 {
+    text-align: center;
+    font-size: 42px;
+}
+.partner_icons{
+    display: flex;
+    flex-direction: row;
+    gap: 2.5rem;
+}
+.partner_icons img{
+    width: 160px;
+}
+
+@media screen and (max-width: 920px) {
+    .partner_container{
+        top: 50%;
+    }
+    .partner_container h2{
+        font-size: 20px;
+    }
+    .partner_icons{
+        gap: 1rem;
+    }
+    .partner_icons img{
+        width: 50px;
+    }
+}

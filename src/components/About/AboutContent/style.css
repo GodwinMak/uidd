@@ -1,0 +1,153 @@
+.about_content{
+    background: var(--yelow-color);
+    height: 1300px;
+}
+
+.about_info_one{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+    width: 98vw;
+}
+
+.about_info_one .about_img_container{
+    position: relative;
+    align-items: center;
+    height: 430px;
+    width: 50%;
+    border: 1px solid;
+    margin: 50px;
+    box-shadow: -15px 20px 0px 0px black;
+}
+
+.about_img_container .about_img{
+    width: 100%;
+    height: 100%;
+}
+
+.about_info_one .about_info_paragraph{
+    width: 50%;
+    padding: 2px;
+    margin: 30px;
+    align-items: center;
+}
+
+.about_card_container{
+    display: flex;
+    flex-direction: row;
+    width: 98vw;
+    position: relative;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    gap: 2.5rem;
+}
+
+.about_card{
+    width: 33.3%;
+    background-color: black;
+    border-radius: 10px;
+    height: 250px;
+}
+
+.about_card img{
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+    top: 10px;
+    width: 70px;
+}
+
+.about_card h3{
+    font-size: 20px;
+    text-align: center;
+    top: 10px;
+    position: relative;
+    color: #fff;
+}
+
+.about_card p{
+    position: relative;
+    top: 10px;
+    color: #fff;
+    padding: 10px;
+}
+.about_spec {
+    position: relative;
+    top: 70px;
+}
+.about_spec h2{
+    text-align: center;
+}
+.about_spec_container{
+    position: relative;
+    top: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 2.5rem;
+    height: 300px;
+    width: 90vw;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.about_spec_card{
+    width: 50%;
+    border-radius: 0;
+    border: 1px solid;
+    box-shadow: -10px 16px 0px 0px black;
+    background-color: #fff;
+}
+@media screen and (max-width: 920px) {
+    .about_content{
+        height: 900px;
+    }
+    .about_info_one{
+    }
+    .about_info_one .about_img_container{
+        height: 150px;
+        margin: 20px;
+        box-shadow: -10px 16px 0px 0px black;
+    }
+    .about_info_one .about_info_paragraph{
+        margin: 0;
+        padding: 0;
+        text-align: start;
+    }
+
+    .about_card_container{
+        height: 200px;
+        gap: 1.5rem;
+    }
+
+    .about_card{
+        border-radius: 5px;
+        height: 210px;
+    }
+    .about_card img{
+        width: 35px;
+        top: 8px;
+        left: 50%;
+        position: relative;
+        transform: translateX(-50%);
+    }
+    .about_card h3{
+        top: 10px;
+        position: relative;
+        text-align: center;
+        font-size: 16px;
+        color: #fff;
+    }
+
+    .about_card p{
+        font-size: 9px;
+        color: #fff;
+        padding: 10px;
+    }
+    .about_spec_container{
+        gap: 1.5rem;
+        height: 200px;
+    }
+
+    
+}

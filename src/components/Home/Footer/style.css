@@ -1,0 +1,212 @@
+.Footer_container{
+    position: absolute;
+    top: 3000px;
+    height: 413px;
+    z-index: 9;
+    background-color: black;
+    width: 100%;
+}
+.footer_content{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    height: 100%;
+    z-index: 9;
+}
+
+.footer_content .footer_card{
+    position: relative;
+    height: 90%;
+    align-items: center;
+    display: flex;
+}
+
+.email_input{
+    width: 45%;
+    flex-direction: column;
+    gap: 2.5rem;
+    margin-left: 20px;
+    top: 60px;
+
+}
+
+.email_input h6{
+    position: relative;
+    text-align: start;
+    font-size: 20px;
+    color: var(--yelow-color);
+    margin-left: -60px;
+}
+
+.email_input div{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+ .email_input div label{
+    font-size: 25px;
+    color: #fff;
+ }
+
+ .email_input div input{
+        border: none;
+        background: transparent;
+        border-bottom: 1px solid #fff;
+        width: 85%;
+        color: #fff;
+    }
+
+    .email_input div button{
+        position: relative;
+        top: 20px;
+        background-color: var(--yelow-color);
+        color: #000;
+        border: none;
+        border-radius: 10px;
+        font-weight: 600;
+    }
+
+    .contacts{
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        width: 30%;
+        z-index: 9;
+        color: #fff;
+        position: relative;
+        top: 60px;
+        margin-left: -170px;
+    }
+
+    .info{
+        display: flex;
+    }
+
+    .info img{
+        width: 30px;
+    }
+    .info span{
+        font-size: 20px;
+        margin-left: 20px;
+    }
+
+    .social{
+        color: #fff;
+        z-index: 9;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        top: 60px;
+    }
+    .social h6{
+        font-size: 25px;
+    }
+    .social_icon{
+        display: flex;
+        flex-direction: row;
+        gap: 1.5rem;
+    }
+
+    .social_icon img{
+        width: 40px;
+    }
+
+@media screen and (max-width: 920px) {
+    .Footer_container{
+        top: 1050px;
+        height: 200px;
+    }
+    .footer_content{
+        gap: 0.5rem;
+    }
+
+    .email_input{
+        width: 45%;
+        flex-direction: column;
+        gap: 0;
+        margin-left: 10px;
+        top: 10px;
+    }
+
+    .email_input h6{
+        position: relative;
+        text-align: start !important;
+        font-size: 12px;
+        color: var(--yelow-color);
+        margin-left: -18px;
+        top: 20px;
+    }
+
+    .email_input div{
+        position: relative;
+        top: 20px;
+    }
+
+    .email_input div label{
+        color: #fff;
+        font-size: 13px;
+    }
+
+    .email_input div input{
+        border: none;
+        background: transparent;
+        border-bottom: 1px solid #fff;
+        width: 85%;
+        color: #fff;
+        font-size: 13px;
+    }
+
+    .email_input div button{
+        position: relative;
+        top: 20px;
+        background-color: var(--yelow-color);
+        color: #000;
+        border: none;
+        border-radius: 10px;
+        font-weight: 600;
+    }
+    .contacts{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        width: 30%;
+        z-index: 9;
+        color: #fff;
+        position: relative;
+        top: 30px;
+        margin-left: -25px;
+    }
+
+    .info{
+        display: flex;
+    }
+
+    .info img{
+        width: 20px;
+    }
+    .info span{
+        font-size: 10px;
+        margin-left: 10px;
+    }
+
+    .social{
+        color: #fff;
+        z-index: 9;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        top: 30px;
+    }
+    .social h6{
+        font-size: 8.2px;
+    }
+    .social_icon{
+        display: flex;
+        flex-direction: row;
+        gap: 0.5rem;
+    }
+
+    .social_icon img{
+        width: 20px;
+    }
+}

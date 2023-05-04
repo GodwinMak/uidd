@@ -1,0 +1,103 @@
+.testimonies_container{
+    width: 100%;
+    position: absolute;
+    top: 2262px;
+    height: 600px;
+    z-index: 7;
+}
+
+.testimonies_container .testimonies_wrapper{
+    position: relative;
+}
+
+
+.testimonies_container .testimonies_wrapper::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 450px;
+    background: linear-gradient(180deg, #C89300 55.73%, rgba(200, 147, 0, 0) 100%);
+    z-index: 7;
+ }
+
+ .testimonies_wrapper h2{
+    position: relative;
+    z-index: 9;
+    text-align: center;
+    top: 30px;
+ }
+
+ .testimonies_wrapper p {
+    position: relative;
+    z-index: 9;
+    text-align: center;
+    color: #fff;
+    font-family: "Roboto";
+    font-size: 30px;
+    top: 30px;
+ }
+
+ .testimonies_content{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 150px;
+    display: flex;
+    flex-direction: row;
+    gap: 5.5rem;
+    height: 430px;
+    width: 95vw;
+    z-index: 9;
+ }
+
+.testimonies_content .testimonies_card{
+    position: relative;
+    top: 100px;
+    height: 90%;
+    align-items: center;
+    width: 33.3%;
+    display: flex;
+}
+
+.testimonies_card p{
+    position: relative;
+    top: 0;
+    text-align: start;
+}
+.testmonie_name{
+    position: absolute;
+    color: #fff;
+    top: 340px;
+    font-size: 30px;
+}
+@media screen and (max-width: 920px) {
+    .testimonies_container{
+        top: 710px;
+        height: 450px;
+    }
+    .testimonies_container .testimonies_wrapper::before{
+        height: 45opx;
+    }
+    .testimonies_wrapper p{
+        font-size: 15px;
+    }
+    .testimonies_content{
+        height: 150px;
+        gap: 1rem;
+    }
+    .testimonies_content .testimonies_card{
+        top: 17px;
+    }
+    .testimonies_card p{
+        font-size: 10px;
+        
+    }
+
+    .testmonie_name{
+        top: 110px;
+        font-size: 10px;
+        
+    }
+}

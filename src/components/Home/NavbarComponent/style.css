@@ -1,0 +1,30 @@
+.navbar_container{
+    position: absolute;
+    left: 55%;
+    transform: translateX(-50%);
+    z-index: 3;
+    top: -5%;
+}
+
+._navbar_link{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px !important;
+    line-height: 28px;
+    margin-left: 20px;
+    color: #FFFFFF!important;
+}
+
+
+@media screen and (max-width: 920px) {
+    .navbar_icon{
+        width: 100px;
+        margin: 0 -15px;
+    }
+    ._navbar_link{
+        color: #fff !important;
+        font-size: 10px !important;
+        margin-left: -2px;
+    }
+}

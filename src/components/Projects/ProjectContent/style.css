@@ -1,0 +1,19 @@
+.project_content{
+    background-color: var(--yelow-color);
+}
+
+.project_image{
+    border-radius: 10px;
+}
+.project_col h3{
+     color: #fff;
+}
+.project_col p{
+    color: #fff;
+}
+
+@media screen  and (max-width: 920px){
+    .project_image{
+        height: 150px;
+    }
+}
